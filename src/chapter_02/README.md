@@ -19,7 +19,7 @@ The class `Unit` has one value, `()`.
 x = y = 1 // x = ()
 ```
 
-+ `printf` is used for formatted text (see [*string interpolation*][2]
++ `printf` is used for formatted text (see [*string interpolation*][2])
 
 + *initialize; test; update* loop can be achieved with:
 
