@@ -6,7 +6,7 @@
 
 + [*Chapter 1*][1] - **The Basics**
 + [*Chapter 2*][2] - **Control Structures and Functions**
-+ [*Chapter 3*] - **Working with Arrays**
++ [*Chapter 3*][3] - **Working with Arrays**
 + [*Chapter 4*] - **Maps and Tuples**
 + [*Chapter 5*] - **Classes**
 + [*Chapter 6*] - **Objects**
