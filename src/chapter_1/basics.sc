@@ -73,7 +73,7 @@ Using BigInt, compute 2^1024.
 
 */
 
-BigInt(2) pow 1024
+BigInt(2) pow 1024  // == BigInt.apply(2) pow 1024
 
 // ========================================================
 /* 7.
@@ -83,7 +83,10 @@ as probablePrime(100, Random), without any qualifiers
 before probablePrime and Random?
 */
 
-BigInt.probablePrime(100, scala.util.Random)
+import BigInt.probablePrime
+import scala.util.Random
+
+probablePrime(100, Random)  // == BigInt.probablePrime(100, scala.util.Random)
 
 // ========================================================
 /* 8.
@@ -94,7 +97,7 @@ such as "qsnvbevtomcj38o06kul". Poke around Scaladoc
 to find a way of doing this in Scala.
 */
 
-BigInt.probablePrime(100, scala.util.Random).toString(36)
+probablePrime(100, Random).toString(36)
 
 // ========================================================
 /* 9.
