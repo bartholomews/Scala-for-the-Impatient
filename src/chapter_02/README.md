@@ -19,7 +19,7 @@ The class `Unit` has one value, `()`.
 x = y = 1 // x = ()
 ```
 
-+ `printf` is used for formatted text (see [*string interpolation*][http://docs.scala-lang.org/overviews/core/string-interpolation.html]
++ `printf` is used for formatted text (see [*string interpolation*][2]
 
 + *initialize; test; update* loop can be achieved with:
 
@@ -29,3 +29,4 @@ for(i <- 1 to n if <conditional expression>) { ... }
 
 
 [1]: http://www.scala-lang.org/api/2.11.0-M4/#scala.Unit
+[2]: http://docs.scala-lang.org/overviews/core/string-interpolation.html
