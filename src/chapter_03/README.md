@@ -139,3 +139,4 @@ matrix(row)(column) = n
 ```
 
 + Scala and Java arrays are interoperable; with `ArrayBuffer`, use `scala.collection.JavaConversions`.
+(e.g. `scala.collection.JavaConversions.bufferAsJavaList` and `scala.collection.JavaConversions.asScalaBuffer`)
