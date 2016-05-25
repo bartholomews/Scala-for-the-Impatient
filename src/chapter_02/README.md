@@ -13,7 +13,7 @@ if (x > 0) 1 // if (x > 0) 1 else ()
 + In Scala, every expression is supposed to have *some* value.
 The class `Unit` has one value, `()`. 
 
-+ Assignment have a value of type `Unit`.
++ Assignment have a value of type [`Unit`][1].
 
 ```
 x = y = 1 // x = ()
@@ -27,3 +27,5 @@ x = y = 1 // x = ()
 for(i <- 1 to n if <conditional expression>) { ... }
 ```
 
+
+[1]: http://www.scala-lang.org/api/2.11.0-M4/#scala.Unit

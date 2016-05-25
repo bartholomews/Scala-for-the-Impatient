@@ -4,7 +4,7 @@
 
 Key points:
 
-+ Use an `Array` if the length is fixed, and an `ArrayBuffer` is the length can vary.
++ Use an [`Array`][1] if the length is fixed, and an [`ArrayBuffer`][2] is the length can vary.
 
 ```
 import scala.collection.mutable.ArrayBuffer
@@ -35,7 +35,8 @@ val c = b.toArray	// convert to `Array`
 ```
 
 + Don't use `new` when supplying initial values:
-(for both `Array` and `ArrayBuffer`, with `new` is expected a one `Int` arg for the length)
+(with `new` is expected a one `Int` arg for the length: 
+ without `new` a companion object [`Array`][3] and [`ArrayBuffer`][4] can be referenced)
 
 ```
 val a = new Array(1)
@@ -61,7 +62,7 @@ val e = d.toBuffer
 
 ```
 
-`.sum`, `.min`, `.max` work for both `Array` and `ArrayBuffer`;
+`.sum`, `.min`, `.max` work for both [`Array`][1] and [`ArrayBuffer`][2];
 also `.sorted` and, with comparison function arg, `.sortWith((T, T) => Boolean)` which sorts an array and *returns* it, without modifying the original:
 
 ```
@@ -140,3 +141,8 @@ matrix(row)(column) = n
 
 + Scala and Java arrays are interoperable; with `ArrayBuffer`, use `scala.collection.JavaConversions`.
 (e.g. `scala.collection.JavaConversions.bufferAsJavaList` and `scala.collection.JavaConversions.asScalaBuffer`)
+
+[1]: http://www.scala-lang.org/api/2.11.0-M4/#scala.Array
+[2]: http://www.scala-lang.org/api/2.11.0-M4/#scala.collection.mutable.ArrayBuffer
+[3]: http://www.scala-lang.org/api/2.11.0-M4/#scala.Array$
+[4]: http://www.scala-lang.org/api/2.11.0-M4/#scala.collection.mutable.ArrayBuffer$
