@@ -45,6 +45,6 @@ Using the `apply` method of a companion object is a common Scala idiom for const
 [7]: https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html
 [8]: https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html
 [9]: http://www.scala-lang.org/api/2.11.0-M4/#scala.math.package
-[10]: http://www.scala-lang.org/api/2.11.0-M4/#scala.util.package
-[11]: http://www.scala-lang.org/api/2.11.0-M4/#scala.util.Random
+[10]: http://www.scala-lang.org/api/2.11.0-M4/#scala.util.Random$
+[11]: http://www.scala-lang.org/api/2.11.0-M4/#scala.util.package
 [12]: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
